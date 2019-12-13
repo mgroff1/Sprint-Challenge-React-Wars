@@ -23,7 +23,7 @@ const App = () => {
 	  <h1 className="Header">React Wars</h1>
 	  {data.map(function(item, index){
       console.log(SWCard)
-	   return <DropDown name={item.name} DOB={item.birth_year} height={item.height} weight={item.mass} key={index} />
+	   return <SWCard name={item.name} DOB={item.birth_year} height={item.height} weight={item.mass} veh = {item.homeworld} key={index} />
 	  })}
 
 	</div>

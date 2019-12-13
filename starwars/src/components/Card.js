@@ -1,6 +1,5 @@
 import React from 'react'
 import './StarWars.css';
-import {DropDown} from './DropDown.js';
 import { Cards, CardText,
 	CardTitle,CardContainer,DataContainer} from './Style.js';
 export default function SWCard(props) {
@@ -17,6 +16,7 @@ export default function SWCard(props) {
 		<CardText>DOB: {props.DOB}</CardText>
     <CardText>Height: {props.height}</CardText>
     <CardText>Weight: {props.weight}</CardText>
+    <CardText>HomeWorld: {props.veh}</CardText>
     	</DataContainer>
 
 	  </Cards>

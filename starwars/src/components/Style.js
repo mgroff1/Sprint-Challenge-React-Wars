@@ -5,7 +5,7 @@ import styled from 'styled-components';
 export const CardContainer = styled.div`
         background:rgba(0,0,0,.8);
         display:flex;
-        width:60vw;
+        width:70vw;
         flex-direction:column;
         box-shadow: 0px 1px 18px 3px rgba(0,0,0,0.77);
         align-items:flex-start;
@@ -35,7 +35,7 @@ export const DataContainer = styled.div`
 export const Cards = styled.div`
       /* background:rgba(125,125,55,.85); */
         display:flex;
-        width:70vw;
+        width:75vw;
         border-radius:8px;
 
 `;
@@ -54,7 +54,7 @@ export const CardTitle = styled.h1`
 
 export const CardText = styled.h2`
     font-size:1.5rem;
-    width:20vw;
+    width:30vw;
     margin:0;
     padding:2px;
     border-radius:8px;

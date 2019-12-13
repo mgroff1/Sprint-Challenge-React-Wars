@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 import Dropdown from 'react-dropdown';
 import 'react-dropdown/style.css';
 import SWCard from './Card';
@@ -8,7 +8,7 @@ import { Cards, CardText,
 
 export const DropDown = (props)=> {
   const options = [
-    <SWCard name= {props.name} DOB={props.DOB} height={props.height} weight={props.weight} />
+    <SWCard name= {props.name} DOB={props.DOB} height={props.height} weight={props.weight} veh={props.veh}/>
   ];
 
 
