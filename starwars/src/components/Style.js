@@ -20,8 +20,9 @@ export const CardContainer = styled.div`
           transistion:all .65s ease-in-out;
           transform:scale(1.1);
         }
-
 `;
+
+
 export const DataContainer = styled.div`
 
       display:flex;
@@ -34,6 +35,7 @@ export const DataContainer = styled.div`
 export const Cards = styled.div`
       /* background:rgba(125,125,55,.85); */
         display:flex;
+        width:70vw;
         border-radius:8px;
 
 `;

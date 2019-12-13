@@ -1,12 +1,13 @@
 import React from 'react'
-import './StarWars.css'
+import './StarWars.css';
+import {DropDown} from './DropDown.js';
 import { Cards, CardText,
 	CardTitle,CardContainer,DataContainer} from './Style.js';
 export default function SWCard(props) {
 
   return (
 
-
+// <DropDown/>
 	<CardContainer>
 	  <Cards>
 <DataContainer>
